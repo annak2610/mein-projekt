@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "HTML-Datei im Chrome starten (Lesson 1)",
+      "file": "${workspaceFolder}/lesson1-clean/index.html"
+    },
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "HTML-Datei im Chrome starten (Lesson 2)",
+      "file": "${workspaceFolder}/lesson2-bugs/index.html"
+    },
+    {
+      "type": "pwa-msedge",
+      "request": "launch",
+      "name": "HTML-Datei im Edge starten (Lesson 1)",
+      "file": "${workspaceFolder}/lesson1-clean/index.html"
+    },
+    {
+      "type": "pwa-msedge",
+      "request": "launch",
+      "name": "HTML-Datei im Edge starten (Lesson 2)",
+      "file": "${workspaceFolder}/lesson2-bugs/index.html"
+    }
+  ]
+}
